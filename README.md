@@ -4,16 +4,16 @@ smart-a-lot
 Add-on for firefox and chrome, improves your experience with extremelot
 
 
-INSTALLATION
+**INSTALLATION**
 
 In order to install the extension you need to drag and drop the smart-a-lot.xpi
 inside your browser. (aka firefox)
 
-DEVELOPER
+**DEVELOPER**
 
 This extension is compiled with addon-sdk-1.15 (https://addons.mozilla.org/it/developers/builder) with this tool you have to launch from command line the command:
 
-$ cfx xpi
+*$ cfx xpi*
 
 the main file is in the data folder, all the extension is in the prova.js file.
 

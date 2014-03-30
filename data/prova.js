@@ -395,7 +395,7 @@ function casaLavori(){
 }
 function controlloPosta(){
 	var who=checkLC("email");
-    if(who!=null)
+    if((who!=null)&&(who!=''))
     $.get('http://extremelot.leonardo.it/proc/posta/leggilaposta.asp', function (data) {
             //alert("Comincio Controllo");
             $(data).find("a").each(function(){

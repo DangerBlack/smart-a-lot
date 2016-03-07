@@ -1,1 +1,17 @@
-{"license": "", "description": "www.danielebaschieri.eu/smartalot/index.htm\nUtile plug-in per firefox per migliorare la tua esperienza su Extremelot.\n1) Inoltro postalot su indirizzo e-mail\n2) lista amici collegati\n3) suggerimento lavoro casa lavori\n4) Piccione Prioritario\nmolto altro...", "contributors": [], "author": "Danger", "url": "", "dependencies": ["api-utils", "addon-kit"], "version": "Beta.rev1142", "lib": "lib", "fullName": "Smart A Lot", "main": "main", "id": "jid0-B8x5hYegyOBWkJLpRanXm28pl90", "name": "smart-a-lot"}
+{
+	"title": "Smart A Lot",
+	"name": "smart-a-lot",
+	"license": "GPL", 
+	"description": "www.danielebaschieri.eu/smartalot/index.htm\nUtile plug-in per firefox per migliorare la tua esperienza su Extremelot.\n1) Inoltro postalot su indirizzo e-mail\n2) lista amici collegati\n3) suggerimento lavoro casa lavori\n4) Piccione Prioritario\nmolto altro...",
+	"main": "main.js",
+	 "author": "Danger", 
+	"url": "", 
+	"engines": {
+	    "firefox": ">=38.0a1"
+	  },
+	"version": "0.9.93",  
+	"keywords": [
+	    "extremelot"
+	  ],
+	"dependencies": ["api-utils", "addon-kit"]
+}

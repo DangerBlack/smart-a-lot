@@ -32,7 +32,8 @@ exports.main = function() {
         pageMod.PageMod({
           include: "*.extremelot.leonardo.it",
           contentScriptFile:
-                        [data.url("super_css.js"),data.url("jquery-1.10.2.js"),data.url("jquery-ui-1.10.4.custom.min.js"), data.url("prova.js")]
+                        //[data.url("super_css.js"),data.url("jquery.min.js"),data.url("jquery-ui.min.js"), data.url("prova.js")]
+                        [data.url("jquery.min.js"), data.url("prova.js")]
         });        
 
 	var ui = require("sdk/ui");

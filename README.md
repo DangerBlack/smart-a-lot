@@ -11,9 +11,12 @@ inside your browser. (aka firefox)
 
 **DEVELOPER**
 
-This extension is compiled with addon-sdk-1.15 (https://addons.mozilla.org/it/developers/builder) with this tool you have to launch from command line the command:
+This extension is compiled with jpm command:
 
-*$ cfx xpi*
+```
+For testing
+$  jpm run -b /usr/lib/firefox xpi
+```
 
 the main file is in the data folder, all the extension is in the prova.js file.
 
